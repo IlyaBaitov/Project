@@ -16,16 +16,22 @@
 /* Весь контент в форме */
 .content {
     background-color: rgba(255, 255, 255, 0.925);
-    width: 20em;
-    height: 20em;
+    width: 25em;
+    height: 30em;
     text-align: center;
     border: 1px solid rgb(0, 0, 0);
     border-radius: 30px;
-    margin: 15% auto;
+    margin: 10% auto;
+}
+
+form input {
+    width: 18em;
+    line-height: 2em;
 }
 
 #text_over_form {
     margin-left: 1em;
+    padding: 0.7em 0 0.7em 0;
 }
 
 #close_form_btn {

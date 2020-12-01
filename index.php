@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/modal_form.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <title>Test</title>
 </head>
 <body>
@@ -24,6 +25,7 @@
                     <option value="suspicion_of_covid">Подозрение на covid</option>
                 </select><br><br>
                 <input type="text" id="residence" name="residence" placeholder="Место проживания"><br><br>
+                <input type="text" id="frequent_visit" name="frequent_visit" placeholder="Место частого посещения"><br><br>
                 <input type="submit" id="submit" value="Отправить данные">
             </form>
         </div>
