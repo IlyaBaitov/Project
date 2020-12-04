@@ -15,10 +15,12 @@
         <div class="content">
             <span id="close_form_btn">&times;</span>
             <h2 id="text_over_form">Введите данные</h2>
-            <form action="./server/add.php" method="post">
+
+            <form action="./server/add.php" method="post" onsubmit="return validate()"> <!-- В 'onsubmit' нужно именно вернуть функцию, иначе ничего не заработает -->
                 <input type="text" id="name" name="name" placeholder="Имя"><br><br>
                 <input type="text" id="surename" name="surename" placeholder="Фамилия"><br><br>
                 <select name="status" id="status">
+                    <option value="default">Выберите степень болезни</option>
                     <option value="not_ill">Не болен</option>
                     <option value="ill">Болен</option>
                     <option value="had_a_covid">Переболел</option>
