@@ -33,6 +33,7 @@
         </div>
     </div>
 
+    <noscript>ВКЛЮЧИТЕ ПОЖАЛУЙСТА ДЖАВА СКРИПТ ПАЖАЛУЙСТА</noscript>
     <script src="./script/script.js"></script>
 </body>
 </html>
